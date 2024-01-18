@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clculator using javascript</title>
+</head>
+<body>
+    
+    <script>      
+        var calculator = alert("Hi Wlcome to browser calculator!!!  Click Enter of Ok!!!")
+        var number1 = parseFloat(prompt("Enter the first number: "));
+        var sign = prompt("Choose any sign: ( + - * / )");
+        var number2 = parseFloat(prompt("Enter the second number: "));
+
+        var result;
+
+        if(sign == '+'){
+            result = number1 + number2;
+        }else if(sign == '-'){
+            result = number1 - number2;
+        }else if(sign == '*'){
+            result = number1 * number2;
+        }else if(sign == '/'){
+            result = number1 / number2;
+        };
+        window.alert("Result is: " + result);
+    </script>
+</body>
+</html>
